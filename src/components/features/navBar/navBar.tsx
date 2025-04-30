@@ -38,7 +38,7 @@ export const NavBar = () => {
       width="full"
       height="xl"
       justify='between'
-      className="border-grey-500 border-1px fixed left-0 right-0 top-0 z-10 border-b bg-navbar-background bg-cover"
+      className="border-grey-500 border-1px fixed left-0 right-0 top-0 border-b bg-navbar-background bg-cover z-10"
     >
       <Flex justify='between'>
         <Flex className="hidden md:inline">
