@@ -1,3 +1,4 @@
+import { Advantage } from "@/components/features/advantage/advantage";
 import { Banner } from "@/components/features/banner/banner";
 import { HowItWorks } from "@/components/features/howItWorks/howItWorks";
 import { Navbar } from "@/components/features/navbar/navbar";
@@ -8,6 +9,8 @@ export default function Home() {
     <>
       <Navbar />
       <Banner />
+      <Advantage />
+      <HowItWorks />
     </>
   );
 }
