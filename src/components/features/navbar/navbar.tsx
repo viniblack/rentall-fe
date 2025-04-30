@@ -22,7 +22,7 @@ import { SearchCommand } from '@/components/features/searchCommand'
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer'
 
 
-export const NavBar = () => {
+export const Navbar = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false)
   const isAdmin = false
 
